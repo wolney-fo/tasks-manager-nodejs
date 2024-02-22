@@ -1,0 +1,13 @@
+{
+  "name": "tasks-manager-nodejs",
+  "version": "0.0.1",
+  "description": "A tasks manager back-end application using Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Wolney Oliveira",
+  "license": "GNU GPLv3"
+}

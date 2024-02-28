@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Wolney Oliveira",
-  "license": "GNU GPLv3"
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
 }

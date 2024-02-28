@@ -1,12 +1,25 @@
 # Tasks manager
 
-A tasks manager back-end application using Node.js
+A tasks manager back-end application using Node.js. A challenge from [@Rocketseat](https://rocketseat.com.br/).
+
+<div style="display: flex; gap: 16px">
+  <img alt="Rocketseat" src="./doc/rocketseat.png" width="64">
+  <img alt="Nodejs" src="./doc/nodejs.png" width="64">
+</div>
 
 ## Features
 
+### RF
+
 - [x] Add, edit and delete tasks;
 - [x] Mark as completed or not;
-- [ ] Create multiple tasks by CSV.
+- [x] Create multiple tasks by CSV.
+
+### RN
+
+- [ ] Validate whether the `title` and `description` properties of the `POST` and `PUT` routes are present in the request body.
+
+- [ ] In routes that receive `/:id`, in addition to validating whether the `id` exists in the database, return the request with a message stating that the record does not exist.
 
 ## How it works
 
